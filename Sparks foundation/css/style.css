@@ -1,0 +1,133 @@
+:root{
+    --primary-color:#e50914;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    background: url(https://images.unsplash.com/photo-1576381394626-53b3d2d48145?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cG9vciUyMGNoaWxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+ 
+}
+.content-1 h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.9rem;
+}
+.content{
+    color:#fff;
+    position: relative;
+    margin-top:8em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.content-1{
+    margin-top: 20px;
+    margin-bottom: 3em;
+    font-size: larger;
+}
+.content-1{
+    font-size: larger;
+    padding:0.5em;
+
+}
+
+.content-1 h2,p{
+    padding: 0.5em;}
+.donate{
+    font-size:1.3em;
+    background-color: #2c49f0;
+    padding:1em;
+    margin:0px;
+    border: none;
+    text-decoration: none ;
+    color: #f4f4f4;
+}
+.donate:hover {
+    transform: translate(0, -5px, 0);
+    background-color: rgba(200, 100, 17,0.8);
+    transition: 300ms ease-out;
+    color:#ffffff;
+}
+
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+header{
+    background-color: #3d3d3d;
+    position:-webkit-sticky;
+    color:#f4f4f4;
+    padding-top: 30px;
+    min-height:70px;
+    opacity: 0.8;
+    
+}
+.branding h3{
+    position: relative;
+    display:inline-block;
+    left:10px;
+
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px
+}
+header img{
+    float:left;
+    width:3em;
+    position:relative;
+    bottom: 5px;
+    
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+ul{
+    padding:0;
+    margin:0;
+
+}
+header .branding{
+    float:left;
+}
+header .branding h3{
+    position: relative;
+    font-size: 2rem;
+    
+}
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px  2px 20px; 
+}
+header a:hover{
+    color:#DBD0C0;
+    font-weight:bold;
+}
+footer{
+    position:relative;
+    top:9rem;
+    color:#f4f4f4;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #3d3d3d;
+}
+footer p{
+    padding:1rem;
+    font-family: 'Roboto', sans-serif;
+}

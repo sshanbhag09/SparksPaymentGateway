@@ -1,0 +1,170 @@
+:root{
+  --primary-color:#e50914;
+}
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+header{
+  background-color: #3d3d3d;
+  position:-webkit-sticky;
+  color:#f4f4f4;
+  padding-top: 30px;
+  min-height:70px;
+  
+  
+}
+.branding h3{
+  position: relative;
+  display:inline-block;
+  left:10px;
+
+}
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:16px
+}
+header img{
+  float:left;
+  width:3em;
+  position:relative;
+  bottom: 5px;
+  
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+ul{
+  padding:0;
+  margin:0;
+
+}
+header .branding{
+  float:left;
+}
+header .branding h3{
+  position: relative;
+  font-size: 2rem;
+  
+}
+header li{
+  float:left;
+  display:inline;
+  padding:0 20px  2px 20px; 
+}
+header a:hover{
+  color:#DBD0C0;
+  font-weight:bold;
+}
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+footer{
+  color:#f4f4f4;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #3d3d3d;
+}
+footer p{
+  padding:1rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+  
+}
+
+.content-1{
+  margin-top: 20px;
+  margin-bottom: 3em;
+  font-size: larger;
+}
+.content-1{
+  font-size: larger;
+  padding:0.5em;
+
+}
+.content-1 h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.9rem;
+}
+.content-1 h2,p{
+  padding: 0.5em;}
+
+  .content-1 h3{
+    font-size: 1.4rem;
+  }
+.content-1 h3,p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-item img{
+  background-attachment: fixed;
+}
+.content-1{
+  padding-left: 6em;
+}
+.modify{
+  color:#f4f4f4;
+  position: relative;
+  top:-45rem;
+  font-weight: 500;
+  width:70%;
+  margin: 1rem;
+  
+  
+}
+#font{
+  font-family: 'Gloria Hallelujah',cursive;
+}
+span{
+  font-weight: 700;
+  font-size: 2.0rem;
+  color: #fdd831;
+}
+#black{
+  color: #ececfa;
+  font-family: Rubik,sans-serif;
+}
+.match #font{
+  color: #fdd831;
+  margin-left:0.7rem;  
+
+}
+#black span{
+  color: rgb(243, 83, 20);
+  font-family: 'Gloria Hallelujah',cursive;
+  font-weight: 800;
+}
+@media only screen and (min-width: 768px){
+ 
+  .carousel-item {
+    height:90vh ;
+    background-attachment: fixed;
+    
+  }
+  .content-1{
+    color:#f4f4f4;
+    position: relative;
+    top:-45rem;
+    width:70%
+  }
+}
+@media (min-width: 400px) and (max-width:768px) {
+  .content-1,.modify{
+    color:#f4f4f4;
+    position: static;
+    color: #3d3d3d;
+    margin:auto;
+    text-align: center;
+    width:90%;
+  padding: 0;
+  }
+  
+
+}
